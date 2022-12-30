@@ -1,326 +1,917 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>my_portfolio</title>
-    <link rel="stylesheet" href="css/all.min.css">
-    <link rel="stylesheet" href="css/styles.css"> 
-</head>
-<body>
-    <header>
-        <div class="nav-center">
-            <nav>
-                <a href="#home"><img src="images/logo.png" alt="logo" class="logo"></a>
-                <!-- toggle btns -->
-                <div class="toggle-icon">
-                    <span class="toggle-btn bars"><i class="fas fa-bars"></i></span>
-                    <span class="toggle-btn times"><i class="fas fa-times"></i></span>
-                </div>
-            </nav>
+<!doctype html>
+	<html lang=en>
+	<head>
+		<meta charset=UTF-8><meta name=theme-color content=#242a35>
+		<link rel=canonical href=http://Rajspeaks.github.io/developer-port/ >
+		<meta name=viewport content="width=device-width,initial-scale=1.0">
+		<link rel=manifest href=manifest.json>
+		<title>Rajdeep Das Personal Portfolio</title>
+		<meta name=DC.title content="Rajdeep Das (Rajspeaks)'s Personal Portfolio">
+		<meta name=description content="Rajdeep Das (Rajspeaks) - A technophile and biblipphile guy with a strong educationl bacgkround of Master of Computer Application. Currently I'm Oracle Solution Dev at Cognizant.">
+		<link rel=apple-touch-icon sizes=180x180 href=./apple-touch-icon.png>
+		<link rel=icon type=image/png sizes=48x48 href=./favicon-48x48.png><link rel=icon type=image/png sizes=32x32 href=./favicon-32x32.png>
+		<link rel=icon type=image/png sizes=16x16 href=./favicon-16x16.png>
+		<link rel=mask-icon href=/images/safari-pinned-tab.svg color=#242a35>
+		<meta name=msapplication-TileColor content=#242a35>
+		<meta name=msapplication-TileImage content=/images/mstile-144x144.png>
+		<meta name=keyword content="Rajdeep Das, Rajdeep Das Portfolio, developer, Rajspeaks, Web Development, Machine Learning, GitHub, linkedIn">
+		<meta name=author content="Rajdeep Das">
+		<meta property=og:image:width content=1062>
+		<meta property=og:image:height content=556>
+		<meta property=og:title content="Rajdeep Das (Rajspeaks)'s Personal Portfolio">
+		<meta property=og:description content="Rajdeep Das (Rajspeaks) - A technophile and biblipphile guy with a strong educationl bacgkround of Master of Computer Application. Currently I'm Oracle Solution Dev at Cognizant.">
+		<meta property=og:url content=https://Rajspeaks.github.io/developer-port/>
+		<meta property=og:image content=images/Profile-pic-512x512.png>
+		<meta property=og:type content=website>
+		<!-- <meta property=fb:app_id content=1145054172578219> -->
+		<meta name=twitter:title content="Rajdeep Das (Rajspeaks)'s Personal Portfolio">
+		<meta name=twitter:description content="Rajdeep Das (Rajspeaks) - A technophile and biblipphile guy with a strong educationl bacgkround of Master of Computer Application. Currently I'm Oracle Solution Dev at Cognizant.">
+		<meta name=twitter:site content=@itsrajdeepdas>
+		<meta name=twitter:image:src content=http://Rajspeaks.github.io/developer-port/images/bgimg.webp>
+		<meta name=twitter:card content=summary_large_image> 
+		<script type=application/ld+json>
+			{
+			"@type":"WebSite",
+			"headline":"Rajdeep Das",
+			"url":"http://Rajspeaks.github.io/developer-port/",
+			"description":"Rajdeep Das (Rajspeaks) - A technophile and biblipphile guy with a strong educationl bacgkround of Master of Computer Application. Currently I'm Oracle Solution Dev at Cognizant.",
+			"name":"Rajdeep Das",
+			"dateModified":"2022-09-15T00:00:00+00:00",
+			"datePublished":"2022-09-15T00:00:00+00:00",
+			"@context":"https://schema.org"
+		   }
+		</script> 
+		<link rel=stylesheet href=css/animate.min.css>
+		<link rel=stylesheet href=css/fonts.min.css>
+		<link rel=stylesheet href=css/styles.min.css>
+		<link rel="preload" href="css/girl.min.css" as="style">
+		<!-- <meta name=google-site-verification content=0muao767XOQs7xHi8v20pMOdR-0_csUTDfQ-5AJkbho>  -->
+		<!-- <script>
+		!function(e,a,t,n,g,c){e.GoogleAnalyticsObject=n;e.ga=e.ga||function(){(e.ga.q=e.ga.q||[]).push(arguments)};e.ga.l+=new Date;g=a.createElement(t);c=a.getElementsByTagName(t)[0];g.async=!0;g.src="//www.google-analytics.com/analytics.js";c.parentNode.insertBefore(g,c)}(window,document,"script","ga");ga("create","UA-206169187-1","auto");ga("send","pageview")
+		</script>  -->
+	</head>
+	<body> 
+		<noscript>
+		Our Website uses JavaScript. Please Enable it in Settings.
+	</noscript> 
+	<nav class="navbar navbar-expand-lg fixed-top navbar-custom sticky sticky-dark">
+		<div class=container> 
+			<a rel=noreferrer aria-label=home class="navbar-brand logo text-uppercase" href="http://Rajspeaks.github.io/" target="_blank" data-toggle=tooltip data-placement=bottom data-html=true title=" 
+			<strong> <em>Rajdeep Das Personal Portfolio</em> </strong>"> Rajdeep Das </a> 
+			<button class=navbar-toggler type=button data-toggle=collapse data-target=#navbarCollapse aria-controls=navbarCollapse aria-expanded=false aria-label="Toggle navigation"> 
+				<i class="fas fa-bars"></i> 
+			</button>
+			<div class="collapse navbar-collapse" id=navbarCollapse>
+				<ul class="navbar-nav ml-auto navbar-center" id=mySidenav>
+					<li class="nav-item active"> 
+						<a rel=noreferrer aria-label=home href=#home class=nav-link data-toggle=tooltip data-placement=bottom data-html=true title=" 
+						<strong> <em>Home</em> </strong>">Home 
+					</a>
+				</li><li class=nav-item> 
+					<a rel=noreferrer aria-label=home href=#about class=nav-link data-toggle=tooltip data-placement=bottom data-html=true title=" 
+					<strong> <em>About</em> </strong>">About </a>
+				</li>
+				<li class=nav-item> <a rel=noreferrer aria-label=home href=#portfolio class=nav-link data-toggle=tooltip data-placement=bottom data-html=true title=" 
+					<strong> 
+						<em>
+						Projects
+					</em> 
+					</strong>">Projects </a>
+				</li>
+				<li class=nav-item> <a rel=noreferrer aria-label=home href=#trainings class=nav-link data-toggle=tooltip data-placement=bottom data-html=true title=" 
+					<strong> 
+						<em>Internships
+						</em> 
+					</strong>">Internships
+				</a>
+			</li>
+			<li class=nav-item> 
+				<a rel=noreferrer aria-label=home href=#achievements class=nav-link data-toggle=tooltip data-placement=bottom data-html=true title=" 
+				<strong> 
+					<em>Achievements & Recognitions</em> 
+				</strong>">
+			Achievements 
+		</a></li>
+		<li class=nav-item> 
+			<a rel=noreferrer aria-label=home href=#contact class=nav-link data-toggle=tooltip data-placement=bottom data-html=true title=" 
+			<strong> 
+				<em>Contact</em> 
+			</strong>">
+		Contact 
+	</a>
+</li>
+</ul>
+</div>
+</div> 
+</nav> 
+<div class=loader>
+	<div class="loader-circle circle-1">
+		<div class=circle-animation>
+		</div>
+	</div>
+	<div class="loader-circle circle-2">
+		<div class=circle-animation>
+		</div>
+	</div> 
+</div> 
+<section class=bg-home id=home>
+	<div class=bg-overlay>
+	</div>
+	<div id=particles-js>
+	</div>
+	<div class=home-center>
+		<div class=home-desc-center>
+			<div class=container>
+				<div class="row justify-content-center">
+					<div class="col-lg-10 mt-4">
+						<div class="home-title text-center">
+							<h5 class="wow fadeInDownBig text-white-50 sub-title mb-3 font-weight-normal disable-select">
+							Tech-Enthusiast
+						</h5>
+						<h1 class=display-3> 
+							<span class="element text-white disable-select" data-elements="Rajdeep Das, Web Developer, ML Explorer, InfoSec-Nerd, Open-Source, Cloud-rider">
+							</span>
+						</h1>
+						<p class="wow fadeInUpBig text-light mx-auto para-desc disable-select"> 
+							Oracle Solution Developer @Cognizant. Hobbyist blogger- Founder <a href="https://thetechlearner.wordpress.com", target="_blank", style="text-decoration: none;color:white;">@TheTechLearner</a>
+							<br>
+						</p>
+						<div class="mt-4 pt-2"> 
+								<a rel=noreferrer aria-label=home target=_blank href="https://drive.google.com/file/d/1STpHJp0RXgkzt7CeXIwx5Wodp1ffxMQR/view?usp=sharing" class="btn btn-outline btn-round" data-toggle=tooltip data-placement=bottom data-html=true title=" 
+								<strong> 
+									<em>Resume</em> </strong>"> 
+									Check out my Resume 
+									<i class="fas fa-download ml-2"></i>
+								</a>
+							</div> <br><br><br>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div> 
+</section> 
+<section class=section id=about>
+	<div class=container>
+		<div class="row justify-content-center txt-bg txt-bg-about">
+			<div class="col-lg-6 pointer">
+				<div class="wow fadeIn section-title text-center mb-4 pb-2">
+					<div class="mb-5 pb-3"> <i class="fas fa-user-graduate h1 text-muted">
+					</i>
+				</div>
+				<div class="h3 font-weight-bold">
+				About me
+			</div>
+			<p class="text-muted mx-auto mb-0 mt-4 para-desc">Experience, technologies and background.
+			</p>
+		</div>
+	</div>
+</div>
+<div class="col-lg-12 mt-4 pt-2">
+	<div>
+		<ul class="nav nav-tabs nav-fill" id=myTab>
+			<li class=nav-item data-toggle=tooltip data-placement=bottom data-html=true title=" 
+			<strong> <em>About</em> </strong>"> 
+			<a rel=noreferrer class="nav-link active" id=story-tab data-toggle=tab href=#story>About
+			</a>
+		</li>
+		<li class=nav-item data-toggle=tooltip data-placement=bottom data-html=true title=" 
+		<strong> <em>Skill</em> </strong>"> 
+		<a rel=noreferrer class=nav-link id=skill-tab data-toggle=tab href=#skill>Skill</a>
+	</li>
+	<li class=nav-item data-toggle=tooltip data-placement=bottom data-html=true title=" 
+	<strong> <em>Education</em> </strong>"> 
+	<a rel=noreferrer class=nav-link id=resume-tab data-toggle=tab href=#resume>Education
+	</a>
+</li>
+<li class=nav-item data-toggle=tooltip data-placement=bottom data-html=true title=" 
+			<strong> <em>Work</em> </strong>"> 
+			<a rel=noreferrer class=nav-link id=work-tab data-toggle=tab href=#work>Work
+			</a>
+		</li>
+</ul>
+<div class=tab-content id=myTabContent>
+	<div class="tab-pane fade show active" id=story role=tabpanel aria-labelledby=story-tab>
+		<div class=text-center>
+			<div class="about-img mt-5 mb-5"> 
+				<img src=images/Profile-pic.webp alt=Profile class="img-fluid mx-auto d-block rounded-circle" height=400 width=400 loading=lazy>
+			</div>
+			<center><div class="h3 font-weight-bold mb-3 wow fadeIn">
+				Rajdeep Das 
+				<!-- <small class=text-muted> - Currently working as Oracle ERP Solution Developer at Cognizant Technology Solutions.
+				 </small> -->
+				</div></center>
+				<p class="text-muted wow slideInUp"> 
+					A technophile by mind and bibliophile by heart with an extra layer of creativity to walk on the path of exploring the treasuresome knowledge of technology.
+				 <br> 
+				Also a tech-blogger by passion. 
+			</p>
+			<!-- <p class="text-muted wow fadeInDownBig"> 
+					<strong>IDE & Editors Used</strong> : 
+					Oracle SQl Developer, Sublime, Atom, Eclipse
+				</p> -->
+			</div>
+		</div>
+		<div class="tab-pane fade" id=skill role=tabpanel aria-labelledby=skill-tab>
+			<div class=row>
+				<div class=col-lg-6>
+					<div class="skill mt-5">
+						<div>
+							<p class="text-muted text-uppercase mb-2">
+							C/C++
+						</p>
+							<div class=progress>
+								<div class=progress-bar style=width:90%>
+									<div class="progress-value text-muted">
+										90%
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class=mt-5>
+							<p class="text-muted text-uppercase mb-2">
+							Java
+						</p>
+							<div class=progress>
+								<div class=progress-bar style=width:70%>
+									<div class="progress-value text-muted">70%
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class=mt-5>
+							<p class="text-muted text-uppercase mb-2">
+							HTML/CSS/SCSS/Bootstrap
+						</p>
+							<div class=progress>
+								<div class=progress-bar style=width:90%>
+									<div class="progress-value text-muted">
+									90%
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class=mt-5>
+						<p class="text-muted text-uppercase mb-2">
+						Javascript
+					</p>
+					<div class=progress>
+						<div class=progress-bar style=width:63%>
+							<div class="progress-value text-muted">
+							63%
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class=mt-5>
+				<p class="text-muted text-uppercase mb-2">
+				Git/GitHub
+			</p>
+			<div class=progress>
+				<div class=progress-bar style=width:70%>
+					<div class="progress-value text-muted">
+					70%
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class=mt-5>
+		<p class="text-muted text-uppercase mb-2">
+		Cloud Computing
+	</p>
+	<div class=progress>
+		<div class=progress-bar style=width:70%>
+			<div class="progress-value text-muted">
+			70%
+		</div>
+	</div>
+</div>
+</div>
+ <div class=mt-5>
+			<p class="text-muted text-uppercase mb-2">
+			Machine Learning
+		</p>
+		<div class=progress>
+			<div class=progress-bar style=width:68%>
+				<div class="progress-value text-muted">
+				68%
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+</div>
+<div class=col-lg-6>
+	<div class=skill>
+		
+<div class=mt-5>
+	<p class="text-muted text-uppercase mb-2">
+	ReactJS
+</p>
+<div class=progress>
+	<div class=progress-bar style=width:60%>
+		<div class="progress-value text-muted">
+		60%
+	</div>
+</div>
+</div>
+</div>
+<div class=mt-5>
+	<p class="text-muted text-uppercase mb-2">
+	SQL
+</p>
+<div class=progress>
+	<div class=progress-bar style=width:78%>
+		<div class="progress-value text-muted">78%
+		</div>
+	</div>
+</div>
+</div>
+<div class=mt-5>
+	<p class="text-muted text-uppercase mb-2">
+	Oracle EBS Edge Apps</p>
+	<div class=progress>
+		<div class=progress-bar style=width:90%>
+			<div class="progress-value text-muted">90%
+			</div>
+		</div>
+	</div>
+</div>
+<div class=mt-5>
+	<p class="text-muted text-uppercase mb-2">
+	Python
+</p>
+<div class=progress>
+	<div class=progress-bar style=width:70%>
+		<div class="progress-value text-muted">
+		70%
+	</div>
+</div>
+</div>
+</div>
+<div class=mt-5>
+	<p class="text-muted text-uppercase mb-2">
+	OSINT/Network Security</p><div class=progress>
+		<div class=progress-bar style=width:60%>
+			<div class="progress-value text-muted">60%
+			</div>
+		</div>
+	</div>
+</div>
+<div class=mt-5>
+	<p class="text-muted text-uppercase mb-2">
+	Content Writing/SEO</p><div class=progress>
+		<div class=progress-bar style=width:90%>
+			<div class="progress-value text-muted">90%
+			</div>
+		</div>
+	</div>
+</div>
+<div class=mt-5>
+	<p class="text-muted text-uppercase mb-2">
+	Graphics/Photoshoping</p>
+	<div class=progress>
+		<div class=progress-bar style=width:70%>
+			<div class="progress-value text-muted">70%
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+</div>
+</div>
+<br><br><br>
+<p align="center" class="text-muted">IDE/Editors/Technology stacks I have used: SQL Developer, VSCode, Jupyter Notebook, Atom, Adobe Dreamweaver, Sublime, Notepad++, XAMPP, WAMP, GCP, Google  Colab, Codeblocks, Eclipse Git/GitHub, GitHub Codespaces, Oracle EBS, Oracle Workflow Builder, Linux.</p> 
+</div>
 
-            <!-- ul container -->
-            <div class="links-container">
-                <div class="nav-link-wrapper">
-                    <ul class="nav-links">
-                        <li>
-                            <a href="#home" class="link">
-                                <i class="fas fa-home active"></i>
-                            </a>
-                        </li>
-                        <li><a href="#about" class="link">About</a></li>
-                        <li><a href="#my-skills" class="link">My Skills</a></li>
-                        <li><a href="#blog" class="link">Blog</a></li>
-                        <li><a href="#contact" class="link">Contact</a></li>
-                        <li><a href="#work" class="link">Work</a></li>
-                    </ul>
-                    <!-- social icons for header below -->
-                    <div class="social-icons">
-                        
-                        <a href="#instagram" class="link"><i class="fab fa-instagram"></i></a>
-                        
-                    </div>
-                    <!-- social icons for header ends here -->
-                </div>
-                
-            </div>
-            <!-- resume link -->
-            <a href="#resume_is_under_development" class="resume" onClick="swal({
-                title: 'Hey there!!',
-                text: 'The resume you are looking for is under development, As i have so much that`s yet to be learnt.',
-                type: 'info',
-                showCancelButton: true,
-                confirmButtonColor: '#DD6B55',
-                confirmButtonText: 'Alright!',
-                cancelButtonText: 'Contact Meh'
-              }).then(() => {
-                if (result.value) {
-                  // handle Confirm button click
-                } else {
-                    window.location.href = "URL";}
-              });">Resume</a>
-            
-        </div> 
-        <!-- nav center div above -->
-    </header>
+<div class="tab-pane fade" id=resume role=tabpanel aria-labelledby=resume-tab>
+	<div class=row>
+		<div class=col-lg-12>
+			<div id=education class=education-section> 
+				<i class="fas fa-graduation-cap mt-5 font-size-50">
+				</i>
+				<div class="timeline mt-5">
+					<div class="wow bounceInLeft timeline-box right" data-wow-delay=0s>
+						<div class=timeline-container>
+							<img class='clg-logo' src='images/hit.webp'> 
+							<h3 class="experience-designation m-0">Master of Computer Application(MCA)</h3>
+							<h4 class=experience-company-name>Heritage Institute of Technology, Kolkata</h4>
+							<h5 class="experience-duration m-0">2019 - 2022</h5>
+						</div>
+					</div>
+					<div class="wow bounceInRight timeline-box left" data-wow-delay=0s>
+						<div class=timeline-container>
+							<img class='clg-logo' src='images/nsec.webp'>
+							<h3 class="experience-designation m-0">Bachelor of Computer Application(BCA)</h3>
+							<h4 class=experience-company-name>Netaji Subhash Engineering College(NSEC), Kolkata</h4>
+							<h5 class="experience-duration m-0">2016 - 2019</h5>
+						</div>
+					</div>
+					<div class="wow bounceInLeft timeline-box right" data-wow-delay=0s>
+						<div class=timeline-container>
+							<img class='clg-logo' src='images/jv.webp'>
+							<h3 class="experience-designation m-0 text-left">XII (Higher Secondary),Science</h3>
+							<h4 class="experience-company-name text-left">Jadavpur Vidyapith (WBCHSE Board)</h4>
+							<h5 class="experience-duration m-0 text-left">Year of Completion:2016</h5>
+							<p class="experience-description text-left"></p>
+						</div>
+					</div>
+					<div class="wow bounceInRight timeline-box left" data-wow-delay=0s>
+						<div class=timeline-container>
+							<img class='clg-logo' src='images/jv.webp'>
+							<h3 class="experience-designation m-0">X(Secondary)</h3>
+							<h4 class=experience-company-name>Jadavpur Vidyapith (WBBSE Board)</h4>
+							<h5 class="experience-duration m-0">Year of Completion:2014</h5>
+							<p class="experience-description text-right"></p>
+						</div>
+					</div>
+					<div id=timeline-divider>
+						<div class=timeline-traveller>
+							<div> 
+								<i class="fas fa-plane font-size-25"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 
-    <!-- section 1 starts below -->
-    <section class="section-1" id="home">
-        <div class="container">
-            <div class="about-desc">
-                <h2>Hi,</h2>
-                <h1 id="name">I'm <img src="images/logo.png" class="name-logo" alt="logo"><span class="auto-typed"></span>
-                </h1>
-                <h1 id="job">17 y/o Student, Web Developer</h1>
-                <p><q>Passionate about Coding and Designing...</q></p>
-                <!-- contact me button -->
-                <a href="#" class="contact-button">
-                    <div>
-                        <span class="bg"></span>
-                        <span class="base"></span>
-                        <span class="text">
-                            contact me
-                        </span>
-                    </div>
-                </a>
-                    <!-- contact me button ends here -->
+<div class="tab-pane fade" id=work role=tabpanel aria-labelledby=work-tab>
+	<div class=row>
+		<div class=col-lg-12>
+			<div id=work class=work-section> 
+				<i class="fas fa-suitcase mt-5 font-size-50">
+				</i>
+				<div class="timeline mt-5">
+					<div class="wow bounceInLeft timeline-box right" data-wow-delay=0s>
+						<div class=timeline-container>
+							<img class='clg-logo' src='images/cts.webp'>
+							<h3 class="experience-designation m-0">Programmer Analyst Trainee- Oracle EBS Solution Developer</h3>
+							<h4 class=experience-company-name>Cognizant Technology Solution</h4>
+							<h5 class="experience-duration m-0">23rd Aug, 2022 - Present</h5>
+						</div>
+					</div>
+					<div class="wow bounceInRight timeline-box left" data-wow-delay=0s>
+						<div class=timeline-container>
+							<img class='clg-logo' src='images/cts.webp'>
+							<h3 class="experience-designation m-0">Intern- Oracle Solution Practice</h3>
+							<h4 class=experience-company-name>Cognizant Technology Solution</h4>
+							<h5 class="experience-duration m-0">18th Feb, 2022-5th Aug, 2022</h5>
+						</div>
+					</div>
+					<div id=timeline-divider>
+						<div class=timeline-traveller>
+							<div> 
+								<i class="fas fa-plane font-size-25"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 
-                <!-- achievement section -->
-                <div class="achievement">
-                    <div class="ach">
-                        <h1>50</h1>
-                        <span>Completed Projects</span>
-                    </div>
-                    <!--  -->
-                   <div class="ach">
-                    <h1>70</h1>
-                    <span>Completed Designs</span>
-                   </div>
-                </div>
-            
-            </div>
-            <!-- about desc div is above -->
-        </div>
-        
-        <!-- social icons for the landing page--> 
-        <div class="icons">
-            <a href="#"><i class="fab fa-facebook"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="https://www.instagram.com/nerdy__weeb/"><i class="fab fa-instagram"></i></a>
-            
-        </div>
-        <!-- hero image div below -->
-        <div class="hero-img">
-            <img src="images/hoodie-guy.png" alt="Hoodie man">
-        </div>
-    </section>
-    <!-- my bubbles -->
-    <ul class="logo-animation">
-        <li></li>
-        <li><img src="images/logo.png" alt="logo" width="700" height="705"></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-    </ul>
+</div>
+</div>
+</div>
+</div> 
+</section> 
+<section class="quote-section quote-hireme quote-img">
+	<div class=overlay>
+	</div>
+	<div class=container>
+		<div class="row justify-content-center">
+			<div class="col-md-7 text-center fadeInUp">
+				<h2 class="wow slideInLeft disable-select" data-wow-duration=0.25s data-wow-delay=0.1s>
+				“Everybody should learn to program a computer, because it teaches you how to think.”</h2> 
+				<br> <br>
+				<h2 class="wow slideInRight font-italic disable-select" data-wow-duration=0.25s data-wow-delay=0.1s>-Steve Jobs
+				</h2>
+			</div>
+		</div>
+	</div> 
+</section> 
+<section class="section pointer bg-light" id=portfolio>
+	<div class=container>
+		<div class="row justify-content-center txt-bg txt-bg-portfolio">
+			<div class=col-lg-6>
+				<div class="wow fadeIn section-title text-center mb-4 pb-2">
+					<div class="mb-5 pb-3"> 
+						<i class="far fa-clone h1 text-muted"></i>
+					</div>
+					<div class="h3 font-weight-bold">My Projects</div>
+					<p class="text-muted mx-auto mb-0 mt-4 para-desc">
+					Sample of some of my projects
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="row container-grid projects-wrapper mt-4 pt-2">
+		<div class="wow rotateInDownLeft col-lg-4 spacing" data-wow-delay=0.5s>
+			<div class="item-box m-2"> 
+				<a rel=noreferrer aria-label=home href=https://github.com/Rajspeaks/Be-Our-Guest target=_blank data-toggle=tooltip data-placement=top data-html=true title=" 
+				<strong> <em>Click To Checkout My Code.</em> </strong>"> 
+				<img class="item-container img-fluid mx-auto" src=images/Be-Our-Guest.webp alt=Project-1 width=1030 height=800 loading=lazy>
+				<div class=item-mask>
+					<div class="item-caption text-white text-center"><h5>
+					Be Our Guest</h5><p class=text-uppercase> An online restaurant table-reservation & and even booking management system</p>
+				</div>
+			</div> 
+		</a>
+	</div>
+</div>
+<div class="wow slideInUp col-lg-4 spacing">
+	<div class="item-box m-2"> 
+		<a rel=noreferrer aria-label=home href=https://github.com/Rajspeaks/Clash-of-Space target=_blank data-toggle=tooltip data-placement=top data-html=true title=" 
+		<strong> <em>Click To Checkout My Code.</em> </strong>"> 
+		<img class="item-container img-fluid mx-auto" src=images/Clash-of-Space.webp alt=Project-2 width=1030 height=800 loading=lazy>
+		<div class=item-mask>
+			<div class="item-caption text-white text-center"><h5>
+			Clash of Space</h5>
+			<p class=text-uppercase>This is a Space-war game between you and enemy Alient-crafts.
+			</p>
+		</div>
+	</div> 
+</a>
+</div>
+</div>
+<div class="wow rotateInDownRight col-lg-4 spacing" data-wow-delay=0.5s>
+	<div class="item-box m-2"> 
+		<a rel=noreferrer aria-label=home href=https://github.com/Rajspeaks/Machine-Learning-approach-to-Bengali-POS-Tagging-using-BNLP target=_blank data-toggle=tooltip data-placement=top data-html=true title=" 
+		<strong> <em>Click To Checkout My Code.</em> </strong>"> 
+		<img class="item-container img-fluid mx-auto" src=images/Machine-Learning-approach-to-Bengali-POS-Tagging-using-BNLP.webp alt=Project-3 width=1030 height=800 loading=lazy>
+		<div class=item-mask>
+			<div class="item-caption text-white text-center"><h5>
+			Machine Learning approach to Bengali POS Tagging using BNLP</h5>
+			<p class=text-uppercase>Machine Learning approach to Bengali Corpus POS Tagging using BNLP Toolkit.</p>
+		</div>
+	</div> 
+</a>
+</div>
+</div>
+<div class="wow rotateInUpLeft col-lg-4 spacing" data-wow-delay=0.5s>
+	<div class="item-box m-2">
+	 <a rel=noreferrer aria-label=image href=https://github.com/Rajspeaks/2048 target=_blank data-toggle=tooltip data-placement=bottom data-html=true title=" 
+	 <strong> <em>Click To Checkout My Code.</em> </strong>"> 
+	 <img class="item-container img-fluid mx-auto" src=images/2048.webp alt=Project-4 width=1030 height=800 loading=lazy>
+	 <div class=item-mask><div class="item-caption text-white text-center">
+	 	<h5>2048</h5>
+	 	<p class=text-uppercase>2048Mash number puzzle game. Slide two same number tiles to merge into one. Make 2048 that way to win it!</p>
+	 </div>
+	</div> 
+</a>
+</div>
+</div>
+<div class="wow slideInDown col-lg-4 spacing">
+	<div class="item-box m-2"> 
+		<a rel=noreferrer aria-label=image href=https://github.com/Rajspeaks/motorola-react target=_blank data-toggle=tooltip data-placement=bottom data-html=true title=" 
+		<strong> <em>Click To Checkout My Code.</em> </strong>"> 
+		<img class="item-container img-fluid mx-auto" src=images/motorola-react.webp alt=Project-5 width=1030 height=800 loading=lazy>
+		<div class=item-mask>
+			<div class="item-caption text-white text-center">
+				<h5>Motorola Cloning reactJS</h5><p class=text-uppercase>Cloning of Motorola India. An Interactive UI/UX designing of E-Commerce site using Reactjs, HTML, CSS, JavaScript, React-Bootstrap, Styled-Components.</p>
+			</div>
+		</div> 
+		</a>
+	</div>
+</div>
+<div class="wow rotateInUpRight col-lg-4 spacing" data-wow-delay=0.5s>
+	<div class="item-box m-2"> 
+		<a rel=noreferrer aria-label=image href=https://github.com/Rajspeaks/Edurary target=_blank data-toggle=tooltip data-placement=bottom data-html=true title=" 
+		<strong> <em>Click To Checkout My Code.</em> </strong>"> 
+		<img class="item-container img-fluid mx-auto" src=images/Edurary.webp alt=Project-6 width=1030 height=800 loading=lazy>
+		<div class=item-mask>
+			<div class="item-caption text-white text-center"><h5>Edurary</h5>
+				<p class=text-uppercase>A Child-Education-Rsight Fund-collection/donation portal for poor and orphan children in India</p>
+			</div>
+		</div> 
+	</a>
+</div>
+</div>
+</div>
+</div> 
+</section> 
+<section class="js-section-codespaces-develop section pointer section-codespaces-develop position-relative overflow-hidden" id=trainings>
+	<div class="codespaces-develop-bg position-absolute top-0 left-0 width-full height-full">
+		
+	</div> <img src=images/footer-cloud.svg class="codespaces-develop-cloud position-absolute bottom-0" alt=BgImage loading=lazy>
+	<div class="container z-index">
+		<div style=width:175px class="position-relative mb-6 mx-auto mx-md-0">
+			<div class="codespaces-sun position-relative circle">
+				<div class="codespaces-sun-stream z-1 d-block circle top-0 left-0 position-absolute"></div>
+				<div class="codespaces-sun-stream z-1 d-block circle top-0 left-0 position-absolute"></div>
+				<div class="codespaces-sun-stream z-1 d-block circle top-0 left-0 position-absolute"></div>
+				<div class="codespaces-sun-stream z-1 d-block circle top-0 left-0 position-absolute"></div>
+				<div class="codespaces-sun-stream z-1 d-block circle top-0 left-0 position-absolute"></div>
+				<div class="codespaces-sun-stream z-1 d-block circle top-0 left-0 position-absolute"></div>
+				<div class="codespaces-sun-stream z-1 d-block circle top-0 left-0 position-absolute"></div>
+				<div class="codespaces-sun-stream z-1 d-block circle top-0 left-0 position-absolute"></div>
+				<div class="codespaces-sun-circle z-2 circle position-absolute top-0 left-0 height-full width-full"></div>
+				<div class="codespaces-sun-circle-night z-2 circle position-absolute top-0 left-0 height-full width-full"></div>
+			</div>
+			<div class="codespaces-develop-time codespaces-develop-time-1 circle overflow-hidden position-absolute" style=left:66px;top:-10px></div>
+			<div class="codespaces-develop-time codespaces-develop-time-2 circle overflow-hidden position-absolute" style=left:88px;top:-20px></div>
+			<div class="codespaces-develop-time codespaces-develop-time-3 circle overflow-hidden position-absolute" style=left:110px;top:-10px></div>
+			<div class="codespaces-moon position-absolute top-0">
+				<div class="codespaces-moon-dot z-1 d-block circle position-absolute"></div>
+				<div class="codespaces-moon-dot z-1 d-block circle position-absolute"></div>
+				<div class="codespaces-moon-dot z-1 d-block circle position-absolute"></div> 
+				<img src=images/moon-dark.svg alt=Moon-dark class="codespaces-moon-svg-dark position-absolute z-2" loading=lazy> 
+				<img src=images/moon.svg alt=Moon class="codespaces-moon-svg position-absolute z-2" loading=lazy>
+			</div>
+		</div>
+		<div class="row justify-content-center txt-bg txt-bg-training">
+			<div class=col-lg-6>
+				<div class="section-title text-center mb-4 pb-2 wow fadeIn">
+					<div class="mb-5 pb-3"> 
+						<i class="fas fa-infinity h1 text-muted"></i>
+					</div>
+					<div class="h3 font-weight-bold" id=my-training>My Internships</div>
+					<p class="text-muted mx-auto mb-0 mt-4 para-desc">Work Profile</p>
+				</div>
+			</div>
+		</div>
+		<div class=row>
+			<div class="col-lg-4 wow bounceInLeft">
+				<div class="services-flip-box mt-4 pt-2">
+					<div class="services-front-flip bg-white text-center p-5">
+						<div class=services-desc>
+				<div class="h5 font-weight-bold mb-3">Cognizant Technology Solutions</div>
+				<p class="text-muted mb-0">Oracle Solution Intern</p>
+				<p class="text-muted mb-0">18th Feb, 2022 - 5th Aug, 2022</p>
+			</div>
+		</div>
+		<div class="services-back-flip text-center bg-custom text-white p-4">
+			<div class=services-desc>
+				<div class=mb-1>Oracle EBS Track- ERP Solution Intern to work on Database Management.</div>
+				 <br> <a rel=noreferrer aria-label=image href="https://drive.google.com/file/d/1M_96xe931ODwlZUbrOY4rejhSjEMyRQl/view?usp=sharing" target=_blank class="btn btn-round p-2 certificate-button" data-toggle=tooltip data-placement=bottom data-html=true title=" <strong> <em>You have to send request</em> </strong>"> Completion Letter </a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="col-lg-4 wow bounceInDown">
+		<div class="services-flip-box mt-4 pt-1">
+			<div class="services-front-flip bg-white text-center p-5">
+				<div class=services-desc><div class="h5 font-weight-bold mb-3">Coding Blocks</div>
+				<p class="text-muted mb-0">Web Developer Intern-Teaching Assistant-TechLead @HIT-K</p>
+				<p class="text-muted mb-0">Oct, 2020 - Sep, 2021</p>
+			</div>
+		</div>
+		<div class="services-back-flip text-center bg-custom text-white p-4">
+			<div class=services-desc>
+				<div class=services-icon>
+					<div class=mb-1>Worked as Web Developer Intern for EdTech Solutions, Coding Outreach @HIT-K & Teaching Assistant
+					</div> 
+					<a rel=noreferrer aria-label=image href="https://drive.google.com/file/d/1oYzATnbX20LbGG6jlCzgtEOD4BkShCtw/view?usp=sharing" target=_blank class="btn btn-round p-2 certificate-button" data-toggle=tooltip data-placement=bottom data-html=true title=" <strong> <em>You have to send request</em> </strong>"> Completion Letter </a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="col-lg-4 wow bounceInRight">
+	<div class="services-flip-box mt-4 pt-2">
+		<div class="services-front-flip bg-white text-center p-5">
+			<div class=services-desc>
+				<div class="h5 font-weight-bold mb-3">PayNearby</div>
+				<p class="text-muted mb-0">Web UI Designer Intern: Frontend Architect</p>
+				<p class="text-muted mb-0">Mar, 2021 - June, 2021</p>
+			</div>
+		</div>
+		<div class="services-back-flip text-center bg-custom text-white p-4">
+			<div class=services-desc>
+				<div class=mb-1>Worked on web interface to design a FinUI model</div> 
+				<br> 
+				<a rel=noreferrer aria-label=image href="https://drive.google.com/file/d/15qUQUZAjL0CIwDBMCqqOY9CTDH3n9WZR/view?usp=sharing" target=_blank class="btn btn-round p-2 certificate-button" data-toggle=tooltip data-placement=bottom data-html=true title=" <strong> <em>You have to send request</em> </strong>"> Completion Letter </a>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+<div class=row>
+	<div class="col-lg-4 wow bounceInLeft">
+		<div class="services-flip-box mt-4 pt-2">
+			<div class="services-front-flip bg-white text-center p-5">
+				<div class=services-desc>
+					<div class="h5 font-weight-bold mb-3">General Motors Technical Centre India Pvt. Ltd.</div>
+					<p class="text-muted mb-0">Full Stack Developer Intern</p>
+					<p class="text-muted mb-0">28th June 2020 - 9th Sep 2020</p>
+				</div>
+			</div>
+			<div class="services-back-flip text-center bg-custom text-white p-4">
+				<div class=services-desc>
+					<div class=mb-1>Developing a Web Interface of a Dashboard on Electrified Vehicle System Model.</div> 
+					<a rel=noreferrer aria-label=image href="https://drive.google.com/file/d/14q2Oqv9DzjLOMbhbVGjwvBM8DVZrX5rQ/view?usp=sharing" target=_blank class="btn btn-round p-2 certificate-button" data-toggle=tooltip data-placement=bottom data-html=true title=" <strong> <em>You have to send request</em> </strong>"> Completion Letter </a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="col-lg-4 wow bounceInUp">
+		<div class="services-flip-box mt-4 pt-2">
+			<div class="services-front-flip bg-white text-center p-5">
+				<div class=services-desc>
+					<div class="h5 font-weight-bold mb-3">Ambivalent Technologies Pvt. Ltd.</div>
+				<p class="text-muted mb-0">GCP Big Data Cloud Engineer Intern</p>
+				<p class="text-muted mb-0">3rd Feb, 2021 - 15th March, 2021</p>
+			</div>
+		</div>
+		<div class="services-back-flip text-center bg-custom text-white p-4">
+			<div class=services-desc>
+				<div class=services-icon>
+					<div class=mb-1>Worked on large datasets on GCP to extract them on CSV file using BIg Data Private API.</div> 
+					<br> 
+					<a rel=noreferrer aria-label=image href="https://drive.google.com/file/d/1ohdM6cDciFkTETVqDodutVuWkcE6bYKR/view?usp=sharing" target=_blank class="btn btn-round p-2 certificate-button" data-toggle=tooltip data-placement=bottom data-html=true title=" <strong> <em>You have to send request</em> </strong>"> Completion Letter </a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="col-lg-4 wow bounceInRight">
+	<div class="services-flip-box mt-4 pt-2">
+		<div class="services-front-flip bg-white text-center p-5">
+			<div class=services-desc>
+				<div class="h5 font-weight-bold mb-3">CuratePad</div>
+				<p class="text-muted mb-0">Backend Developer Intern</p>
+				<p class="text-muted mb-0">24th Feb, 2021 - 22nd May, 2022</p>
+			</div></div>
+			<div class="services-back-flip text-center bg-custom text-white p-4">
+				<div class=mb-1>Worked on the cloud-based backend system of Data unit testing.</div> 
+				<a rel=noreferrer aria-label=image href="https://drive.google.com/file/d/1RWLOytlLC13_UR7O30YnOli6euUntL0M/view?usp=sharing" target=_blank class="btn btn-round p-2 certificate-button" data-toggle=tooltip data-placement=bottom data-html=true title=" <strong> <em>You have to send request</em> </strong>"> Completion Letter </a>
+			</div>
+		</div>
+	</div>
+</div>
+</div> 
+</section>
+<section class="section pointer bg-light" id=achievements>
+	<div class="container z-index">
+		<div class="row justify-content-center txt-bg txt-bg-achievement">
+			<div class=col-lg-6>
+				<div class="wow fadeIn section-title text-center mb-4 pb-2">
+					<div class="mb-5 pb-3"> 
+						<i class="fas fa-trophy h1 text-muted"></i>
+					</div>
+					<div class="h3 font-weight-bold">My Achievements</div>
+					<p class="text-muted mx-auto mb-0 mt-4 para-desc">Some of my Accomplishment.</p>
+				</div>
+			</div>
+		</div>
+		<div class=container-ach>
+			<div class="box col-lg-4 wow zoomInLeft" data-wow-delay=0.5s>
+				<h2 class="name pl-1">IBM Certified IT Security Specialization Professional badge via Coursera.</h2> 
+				<img src=images/IBM.webp class=ach-img alt=IBM-Cyber-Security loading=lazy>
+			</div>
+			<div class="box col-lg-4 wow zoomInUp" data-wow-delay=0.5s>
+				<h2 class="name pl-1">Won the title 'Microsoft Innovative Educator Expert 2021-22' from Microsoft Trainer Academy.</h2> 
+				<img src=images/MIE.webp class=ach-img alt=Microsoft-Innovative-Educator loading=lazy>
+			</div>
+				<div class="box col-lg-4 wow zoomInRight" data-wow-delay=0.5s>
+					<h2 class="name pl-1">IBM-z 'Master the MainFrame' 2020 AngelHack Level 1 Finisher, Global rank 3436 &<br> 8th rank MTM India contributors community.</h2> 
+					<img src=images/IBM-Master.webp class=ach-img alt=IBM-Master loading=lazy>
+				</div>
+			</div>
+			<div class="row justify-content-center txt-bg txt-bg-recognition">
+                 <div class="wow fadeIn section-title text-center mb-4 pb-2">
+					<div class="mb-5 pb-3"> 
+						<i class="fas fa-certificate h1 text-muted"></i>
+					</div>
+					<div class="h3 font-weight-bold">Recognitions</div>
+					<p class="text-muted mx-auto mb-0 mt-4 para-desc">Some Acknolwdgments & Honours I received</p>
+				</div>
+               </div>
+			<div class=container-ach>
+			<div class="box col-lg-4 wow zoomInRight" data-wow-delay=0.5s>
+					<h2 class="name pl-1">GeeksforGeeks All India 44th ranked in the Technical Scripter Annual Event 2020</h2> 
+					<img src=images/geeksforgeeks.webp class=ach-img alt=Geeksforgeeks loading=lazy>
+				</div>
+				<div class="box col-lg-4 wow zoomInRight" data-wow-delay=0.5s>
+					<h2 class="name pl-1">Harvard University Hall of Fame for submitting minor XSS security bug in their portal.</h2> 
+					<img src=images/harvard.webp class=ach-img alt=Harvard-University loading=lazy>
+				</div>
+				<div class="box col-lg-4 wow zoomInRight" data-wow-delay=0.5s>
+					<h2 class="name pl-1">GirlScript Summer of Code 2022 Open Source Contributor Mentorship- LOR for one of TOP 10 Mentor in 2022. </h2> 
+					<img src=images/gsp.webp class=ach-img alt=Google-badge loading=lazy>
+				</div>
+			</div>
+		</div>
+	</section> 
+		<section class="section contact-wrapper bg-contact pointer" id=contact>
+			<div id=particles-js2></div>
+			<div class=container>
+				<div class="row justify-content-center txt-bg txt-bg-contact">
+					<div class=col-lg-6>
+						<div class="section-title text-center mb-4 pb-2 wow fadeIn">
+							<div class="mb-5 pb-3"> 
+								<i class="fas fa-headset h1"></i>
+							</div>
+							<h3 class=text-white>Contact me</h3>
+							<p class="text-white-50 mx-auto mb-0 mt-4 para-desc">Address, Phone Number and Email Address.</p>
+						</div>
+					</div>
+				</div>
+				<div class="row justify-content-center">
+					<div class="col-lg-3 col-md-4 mt-4 pt-2 wow slideInLeft" data-wow-delay=0.1s data-toggle=tooltip data-placement=bottom data-html=true title=" <strong> <em>Location</em> </strong>">
+						<div class="contact-desc text-center">
+							<div class="contact-icon mb-3"> 
+								<i class="fas fa-street-view text-custom h3"></i>
+							</div>
+							<div class=contact-details>
+								<p class=mb-0> 
+									<a rel=noreferrer target=_blank class=contact-links href="https://maps.google.com/?q=Jadavpur,West+Bengal">Jadavpur, Kolkata, West Bengal, India</a>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-4 mt-4 pt-2 wow slideInUp" data-wow-delay=0.1s data-toggle=tooltip data-placement=bottom data-html=true title=" <strong> <em>Contact Number</em> </strong>">
+						<div class="contact-desc text-center">
+							<div class="contact-icon mb-3"> 
+								<i class="fas fa-mobile-alt text-custom h3"></i>
+							</div>
+								<div class=contact-details>
+									<p class=mb-1> 
+										<a rel=noreferrer aria-label=image href=tel:+91-********** class=contact-links>+91-**********</a>
+									</p>
+									<p class=mb-1> </p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-4 mt-4 pt-2 wow slideInRight" data-wow-delay=0.1s data-toggle=tooltip data-placement=bottom data-html=true title=" <strong> <em>E-Mail</em> </strong>">
+							<div class="contact-desc text-center">
+								<div class="contact-icon mb-3"> 
+									<i class="far fa-envelope text-custom h3"></i>
+								</div>
+								<div class=contact-details><p class=mb-0> 
+									<a rel=noreferrer aria-label=image href=mailto:dasraj3697@gmail.com class=contact-links>dasraj3697@gmail.com</a>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div> 
+		</section> 
+		<footer class="footer bg-light end-footer"> 
+			<a rel=noreferrer aria-label=dev-image href=https://dev.to/Rajspeaks target=_blank class="footer-dev wow slideInRight" data-wow-delay=0.1s data-toggle=tooltip data-placement=bottom data-html=true title=" <strong> <em>DEV</em> </strong>"> 
+				<img alt=footer width=52 height=120 src=images/monkey.webp loading=lazy> </a>
+				<div class=container>
+					<div class=row>
+						<div class=col-lg-12>
+							<div class="text-center mt-5 mb-5"> <br>
+								<ul class="social-icons mb-3 list-inline">
+									<li class=list-inline-item> 
+										<a rel=noreferrer aria-label=image href=https://github.com/Rajspeaks/ target=_blank data-toggle=tooltip data-placement=left data-html=true title=" <strong> <em>GitHub</em> </strong>"> 
+											<i class="fab fa-github dark"></i> </a>
+										</li>
+										<li class=list-inline-item> 
+											<a rel=noreferrer aria-label=image href=https://gist.github.com/Rajspeaks/ target=_blank data-toggle=tooltip data-placement=top data-html=true title=" <strong> <em>Gists</em> </strong>">
+											<img src=images/gist.webp width=20 height=20 alt=gist loading=lazy> </a>
+										</li>
+										<li class=list-inline-item> 
+											<a rel=noreferrer aria-label=image href=https://www.linkedin.com/in/itsrajdeepdas/ target=_blank data-toggle=tooltip data-placement=right data-html=true title=" <strong> <em>LinkedIn</em> </strong>"> <i class="fab fa-linkedin-in dark h6"></i> </a>
+										</li>
+									</ul>
+									<ul class="social-icons mb-3 list-inline">
+										<li class=list-inline-item> 
+											<a rel=noreferrer aria-label=image href=https://www.instagram.com/itz__rajj/ target=_blank data-toggle=tooltip data-placement=left data-html=true title=" <strong> <em>Instagram</em> </strong>"> 
+												<i class="fab fa-instagram dark h6"></i> </a>
+											</li>
+											<li class=list-inline-item>
+											 <a rel=noreferrer aria-label=image href=https://www.facebook.com/rajdeep.developer/ target=_blank data-toggle=tooltip data-placement=bottom data-html=true title=" <strong> <em>Facebook</em> </strong>"> <i class="fab fa-facebook dark"></i> </a>
+											</li>
+											<li class=list-inline-item> 
+												<a rel=noreferrer aria-label=image href=https://twitter.com/itsrajdeepdas/ target=_blank data-toggle=tooltip data-placement=right data-html=true title=" <strong> <em>Twitter</em> </strong>"> <i class="fab fa-twitter dark"></i> </a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<p class="wow flipInX copyright-desc text-white mb-0 h6 mt-2" data-wow-delay=0.1s>Designed with <i class="fas fa-heart text-danger"></i> <a href="https://github.com/Rajspeaks" target="_blank" style="text-decoration: none; color: white;">By Rajdeep Das</a></p> 
 
-    <!-- part 2 starts here -->
-    <!-- part 2 starts here -->
-
-    <div class="switch-wrapper">
-        <button class="switch-btn">
-            <span><i class="fas fa-play play"></i></span>
-            <span><i class="fas fa-pause pause"></i></span>
-        </button>
-    </div>
-
-    <section class="section-2" id="about">
-        <div class="my-about-wrapper">
-            <h1 class="about" data-aos='slide-up'>About</h1>
-            <span class="my-self">Me, Myself and I</span>
-        </div>
-        <!-- my story desription -->
-        <div class="my-story">
-            <div class="para1" data-aos='fade-in'>
-                <p>Thank you very much, elders.
-                    Quick pleasures! 
-                    In order that the corrupt be spared by the inventor, it is easy to rebuke, or is bound by the law.
-                </p>
-                <img src="images/logo.png" alt="logo">
-            </div>
-
-            <div class="para2-wrapper"  data-aos='fade-up'>
-                <a href="#" class="contact-button">
-                    <div>
-                        <span class="bg"></span>
-                        <span class="base"></span>
-                        <span class="text">
-                            Read More
-                        </span>
-                    </div>
-                </a>
-                <div class="para2">
-                    <p>Thank you very much, elders.
-                        Quick pleasures! 
-                        In order that the corrupt be spared by the inventor, it is easy to rebuke, or is bound by the law.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Section three begins here -->
-    <section class="section-3 my-skills" >
-        <h1 class="text-skills"  data-aos='slide-up'>Skills</h1>
-        <div class="acquired-skills" id="my-skills">
-            <div class="description" data-aos='fade-up'>
-                <h2>My Coding Journey</h2>
-                <p>Thank you very much, elders.
-                    Quick pleasures! 
-                    In order that the corrupt be spared by the inventor, it is easy to rebuke, or is bound by the law.</p>
-                    <p>Thank you very much. 
-                        The fault, indeed, is ours.
-                        Does it prevent them from assuming that they are all free of these?</p>
-
-                    <span>I'm still Learnin' casue i have a long way to go</span>
-            </div>
-            <img src="images/skillset.svg" alt="skills-jpeg" data-aos='fade-in'>
-        </div>   
-    </section>
+						<audio autoplay>
+  <source src="music/hp-music.mp3" type="audio/mpeg">
+</audio>
+				</footer> 
 
 
-    <!-- section four (4)  starts here -->
-    <section class="section-4" id="blog">
-        <div class="blog-description">
-            <div class="blog-heading">
-                <h3>How I Started Blogging</h3>
-                <p>I love writing about my experiences ans share it to the world because i always
-                    knew that some people will acquire some knowledge  out of it...
-                </p>
-            </div>
-            <a href="#" class="contact-button">
-                <div>
-                    <span class="bg"></span>
-                    <span class="base"></span>
-                    <span class="text">
-                        Read More
-                    </span>
-                </div>
-            </a>
-        </div>
-        <div class="blog-section">
-            <h1>Blog</h1>
-            <div class="blog-wrapper" data-aos='fade-in'>
-                <a href="#"><h3>Your Next Level CSS Animation</h3></a>
-                <p>Learn the fundamental of CSS tricks that will 
-                    take your website design skills to the next level
-                </p>
-                <a href="#">Read More>></a>
-            </div>
 
-            <!-- second blog -->
-            <div class="blog-wrapper" data-aos='fade-up'>
-                <a href="#"><h3>How the Web Really Works ?</h3></a>
-                <p>It's very essential for aspiring web developers to know 
-                    how the web works before...
-                </p>
-                <a href="#">Read More>></a>
-            </div>
-            <!-- third blog -->
-            <div class="blog-wrapper" data-aos='slide-up'>
-                <a href="#"><h3>Imrpove In your Coding Career</h3></a>
-                <p>There are some certain things that you need
-                    to be doing right away to improve in your coding career...
-                </p>
-                <a href="#">Read More>></a>
-            </div>
-            <!-- fourth blog -->
-            <div class="blog-wrapper" data-aos='fade-down'>
-                <a href="#"><h3>How to Become A CSS King</h3></a>
-                <p>Do you want to become an expert in CSS ? Start doing all 
-                    these things today.
-                </p>
-                <a href="#">Read More>></a>
-            </div>
-            <!-- fifth blog -->
-            <div class="blog-wrapper" data-aos='zoom-in'>
-                <a href="#"><h3>JavaScript is too Difficutlt ? Do this.</h3></a>
-                <p>It's true that Javascript is a frustrating Programming 
-                    language especially if you are just starting out...
-                </p>
-                <a href="#">Read More>></a>
-            </div>
-            <!-- sixth blog -->
-            <div class="blog-wrapper" data-aos='slide-down'>
-                <a href="#"><h3>Programming is Not for You !</h3></a>
-                <p>As an aspring web developers, there are some qualities that
-                    you need to have to achieve your goals, if you don't..
-                </p>
-                <a href="#">Read More>></a>
-            </div>
-        </div> 
-    </section>
 
-    <section class="contact-section" id="contact">
-        <div class="contact-description">
-            <h2>Contact Me</h2>
-            <p>I'm would love to work with great companies 
-                and to engage in great projects that will change the future 
-                of web development.
-            </p>
-            <span>Let's talk about Coding</span>
-            <h1 data-aos='slide-right'>Contact</h1>
-        </div>
-        <div class="contact-form-wrapper">
-            <form action="#" data-aos='fade-in'>
-                <input type="text" placeholder="name">
-                <input type="email" placeholder="email" id="email"><br>
-                <input type="text" id="text" placeholder="Subject"><br> 
-                <textarea name="text" placeholder="Send A Message"></textarea><br>
-                <input type="submit" value="Send A Message">
-            </form>
-           
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d31710.48312612416!2d3.393415433323765!3d6.545610486991796!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8d066ea84e95%3A0xce26bf31be062ccb!2sBariga%20102216%2C%20Oworonshoki!5e0!3m2!1sen!2sng!4v1641046088628!5m2!1sen!2sng"
-             style="border:0;" allowfullscreen="" class="map" loading="lazy"></iframe>
-            
-        </div>
-    </section>
+				<script defer src=/js/girl.min.js></script> 
+				<script src=js/jquery-3.5.1.min.js></script> 
+				<script src=js/bootstrap.bundle.min.js></script> 
+				<script src=js/jquery.easing.min.js></script> 
+				<script src=js/scrollspy.min.js></script> 
+				<script src=js/typed.min.js></script> 
+				<script src=js/typed.init.js></script>
+				<script src=js/particles.min.js></script> 
+				<script src=js/vanilla-tilt.min.js></script>
+				<script src=js/dark-light-theme.min.js></script>
+				<script src=js/wow.min.js></script>
+				<script src=js/app.min.js></script> 
+				<script src=https://kit.fontawesome.com/25938f5d06.js crossorigin=anonymous></script>
+				<!-- <bgsound src = "music/hp-music.mp3"/> -->
 
-    <!-- scroll to the top icons -->
-    <a class="scroll-link top-link" href="#home">
-        <i class="fas fa-arrow-up"></i>
-    </a>
-    <!-- scroll to the top icons ends here -->
-
-    <div class="projects" id="work">
-        <div class="projects-desc">
-            <h3>My Video Projects</h3>
-                <p>Here are some of the projects that i have done. 
-            Check out my instagram for more contents.
-        And, stay tuned for similar updates</p>
-        </div>
-        <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/tv/ClJQD2eDD0v/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:600px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/tv/ClJQD2eDD0v/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">View this post on Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/tv/ClJQD2eDD0v/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by S 🌙 (@nerdy__weeb)</a></p></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
-    </div>
-
-    <!-- footer section -->
-    <footer>
-        <div class="footer-content">
-            <p>Copryright &copy; Built By <span>Almarex</span> 2022 | All Right Reserved.</p>
-        </div>
-    </footer>
-
-    <!-- scripts are down below -->
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>                        
-    <script>
-    AOS.init({ duration : 1500, easing: 'ease-in-out'});
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-    <script src="index.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.2.0/sweetalert2.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.2.0/sweetalert2.all.min.js"></script>
-    <script src="sweetalert2.min.js"></script>
-    <link rel="stylesheet" href="sweetalert2.min.css">
-</body>
-</html>
+				<!-- <embed src="music/hp-music.mp3" loop="true" autostart="true" width="0" height="0"> -->
+			</body>
+			</html>
